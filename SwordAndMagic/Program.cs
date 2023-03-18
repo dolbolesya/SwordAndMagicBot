@@ -1,7 +1,8 @@
-public class Program
-{
-    public static void Main(string[] args)
-    {
-    
-    }
+using Deployf.Botf;
+
+namespace SwordAndMagic;
+
+class Program : BotfProgram
+{ 
+    public static void Main(string[] args) => StartBot(args);
 }
